@@ -10,7 +10,7 @@ interface ErrorWindowProps {
 
 const ErrorWindow: React.FC<ErrorWindowProps> = ({ error, person }) => {
     return (
-        <div className='w-[450px] bg-[#292929] mx-2 my-2 rounded-lg text-white'>
+        <div className='lg:w-[450px] w-80 md:w-[400px]  bg-[#292929] mx-2 my-2 rounded-lg text-white'>
             <div className='py-3 w-full pl-4 bg-[#212121] rounded-t-lg flex gap-[5px] px-2'>
                 <span className='w-3 h-3 bg-red-500 rounded-full' />
                 <span className='w-3 h-3 bg-yellow-400 rounded-full' />
@@ -27,7 +27,7 @@ const ErrorWindow: React.FC<ErrorWindowProps> = ({ error, person }) => {
                 </div>
             </div> */}
 
-            <div className="flex items-center my-10 pb-10 pr-5">
+            <div className="flex items-center my-10 lg:pb-10 pr-5">
                 <img src={attention} alt="" className='h-11 mr-3 ml-4' /> {/* Add right margin for spacing */}
                 <div className='flex flex-col'>
                     <p className='text-center'>{error}</p>
