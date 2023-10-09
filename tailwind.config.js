@@ -15,6 +15,8 @@ module.exports = {
         'gradient-radial': 'radial-gradient(81.67% 81.67% at 50% 16.82%, #1E7962 0%, #0E3A2F 80.77%)',
       },
 
+
+
     },
   },
   plugins: [],

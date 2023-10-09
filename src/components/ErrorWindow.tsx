@@ -10,11 +10,11 @@ interface ErrorWindowProps {
 
 const ErrorWindow: React.FC<ErrorWindowProps> = ({ error, person }) => {
     return (
-        <div className='w-[450px] bg-slate-400 mx-2 my-2 rounded-lg'>
-            <div className='py-3 w-full bg-slate-800 rounded-t-lg flex gap-[3px] px-2'>
-                <span className='w-2 h-2 bg-red-500 rounded-full' />
-                <span className='w-2 h-2 bg-yellow-400 rounded-full' />
-                <span className='w-2 h-2 bg-green-600 rounded-full' />
+        <div className='w-[450px] bg-[#292929] mx-2 my-2 rounded-lg text-white'>
+            <div className='py-3 w-full pl-4 bg-[#212121] rounded-t-lg flex gap-[5px] px-2'>
+                <span className='w-3 h-3 bg-red-500 rounded-full' />
+                <span className='w-3 h-3 bg-yellow-400 rounded-full' />
+                <span className='w-3 h-3 bg-green-600 rounded-full' />
             </div> {/* top bar */}
 
 

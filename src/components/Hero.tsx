@@ -8,7 +8,7 @@ const Button:React.FC<ButtonProps> = ({ name }) => {
   return (
     <a
       className='font-normal px-4 py-3 bg-white rounded-lg text-[#134E3A] hover:bg-transparent hover:text-white border border-transparent hover:border-solid hover:border-white  mt-4 transition-all duration-400 ease text-2xl'
-      href="https://docs.google.com"
+      href="https://forms.gle/sRpdJArANxAq13ag6"
     >
       {name}
     </a>

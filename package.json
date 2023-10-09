@@ -14,7 +14,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "deploy": "gatsby build --prefix-paths && cp ./CNAME ./public/ &&gh-pages -d public"
   },
   "dependencies": {
     "autoprefixer": "^10.4.16",

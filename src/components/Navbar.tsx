@@ -5,7 +5,7 @@ import odinLogo from '../assets/odinlogo.png';
 
 const Navbar = () => {
   return (
-    <nav className="p-4 fixed">
+    <nav className="p-4 absolute z-[999]">
       <img src={odinLogo} alt="logo" className='w-32 ml-5 mt-5' />
     </nav>
   )

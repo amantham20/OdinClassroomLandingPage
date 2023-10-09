@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.invert-colors {
+    filter: invert(100%);
+}
+
+
+.glow {
+    box-shadow: 0 0 20px 10px #134E3A; /* Change color and other properties as desired */
+}
