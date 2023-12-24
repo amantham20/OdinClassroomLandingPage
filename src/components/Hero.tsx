@@ -27,7 +27,7 @@ const Hero = () => {
           code, test, and submit your assignments all in one place.
         </p> */}
 
-        <p className='text-4xl mt-10 flex justify-center'> <span className='mt-5 mr-5 text-5xl'>&lt;</span> <Button name='Complete our survey' /> <span className='ml-5 mt-5 text-5xl'> &#47; &gt;</span></p>
+        <p className='text-4xl mt-10 flex justify-center'> <span className='mt-5 mr-5 text-5xl'>&lt;</span> <Button name='Register for beta' /> <span className='ml-5 mt-5 text-5xl'> &#47; &gt;</span></p>
       </div>
     </div>
   )
